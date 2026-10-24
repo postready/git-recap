@@ -1,0 +1,48 @@
+{
+  "name": "git-recap",
+  "version": "1.0.0",
+  "description": "Turn technical git commits into clean, user-friendly product updates, changelogs, and social release notes. Zero dependencies.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "bin": {
+    "git-recap": "bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postready/git-recap.git"
+  },
+  "keywords": [
+    "git",
+    "changelog",
+    "release-notes",
+    "git-recap",
+    "product-updates",
+    "build-in-public",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "eco-null <emrecanozdal@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
