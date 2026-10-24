@@ -1,5 +1,5 @@
 {
-  "name": "git-recap",
+  "name": "git-recap-cli",
   "version": "1.0.0",
   "description": "Turn technical git commits into clean, user-friendly product updates, changelogs, and social release notes. Zero dependencies.",
   "main": "src/index.js",
@@ -7,7 +7,8 @@
   "types": "src/index.d.ts",
   "type": "module",
   "bin": {
-    "git-recap": "bin/cli.js"
+    "git-recap": "bin/cli.js",
+    "git-recap-cli": "bin/cli.js"
   },
   "exports": {
     ".": {
