@@ -14,17 +14,15 @@ It parses your git history, filters automated noise, translates technical commit
 Part of the **[PostReady.org](https://postready.org)** open-source content repurposing toolkit.
 
 ---
-
 ## Highlights
 
-- 🧹 **Automated Noise Removal:** Filters out merge commits, branch syncs, dependency bumps, and chore tasks.
-- 🗣️ **Humanized Copy:** Strips conventional commit tags and cleans up grammar so outputs read like polished product release notes.
-- 📄 **PostReady Updates Format:** Generates drop-in HTML `<details>` components or Markdown matching the [PostReady.org Updates Page](https://postready.org/en/updates).
-- 📱 **Social Ready:** One-click generation of "What we shipped today" bulleted updates for X and LinkedIn.
-- ⚡ **Zero Runtime Dependencies:** Native Node.js ESM utilizing native git binaries.
+- **Automated Noise Removal:** Filters out merge commits, branch syncs, dependency bumps, and chore tasks.
+- **Humanized Copy:** Strips conventional commit tags and cleans up grammar so outputs read like polished product release notes.
+- **PostReady Updates Format:** Generates drop-in HTML `<details>` components or Markdown matching the [PostReady.org Updates Page](https://postready.org/en/updates).
+- **Social Ready:** One-click generation of "What we shipped today" bulleted updates for X and LinkedIn.
+- **Zero Runtime Dependencies:** Native Node.js ESM utilizing native git binaries.
 
 ---
-
 ## Quick Start (CLI)
 
 Run directly with `npx` in any git repository:
@@ -50,7 +48,6 @@ npm install -g git-recap
 ```
 
 ---
-
 ## Output Formats
 
 ### 1. `updates` (Default — PostReady Style)
@@ -82,7 +79,6 @@ Try it live on https://postready.org
 Produces the exact `<details>` markup used by modern Next.js / Tailwind changelog pages.
 
 ---
-
 ## CLI Options
 
 ```text
@@ -102,7 +98,6 @@ OPTIONS:
 ```
 
 ---
-
 ## Programmatic API
 
 Install locally:
@@ -126,7 +121,6 @@ console.log(update.items);
 ```
 
 ---
-
 ## About PostReady
 
 This tool was created by **[PostReady.org](https://postready.org)** — the AI content repurposing studio that turns blog articles, podcasts, and notes into publish-ready X threads, LinkedIn posts, and newsletter drafts.
@@ -137,7 +131,6 @@ Explore other tools in the suite:
 - [awesome-tech-hooks](https://github.com/postready/awesome-tech-hooks) — 500+ curated viral hooks and opening lines.
 
 ---
-
 ## License
 
 MIT © [eco-null](https://github.com/eco-null)
